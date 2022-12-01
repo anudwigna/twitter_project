@@ -1,0 +1,45 @@
+.page {
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideBar {
+
+  position: sticky;
+  top: 0px;
+  width: calc((100vw - 800px) * 0.55);
+  border-right: 1px solid rgb(3, 199, 248);
+  color: rgb(0, 173, 253);
+  height: 100vh;
+}
+
+.rightBar {
+ 
+  position: sticky;
+  top: 0px;
+  width: calc((100vw - 800px) * 0.55);
+  border-left: 1px solid rgb(3,199,248);
+  color: rgb(0, 173, 253);
+  height: 100vh;
+}
+
+.mainWindow {
+
+  width: 800px;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none !important;
+  height: 0px !important;
+}
+
+.loginPage {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}

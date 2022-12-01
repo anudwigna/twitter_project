@@ -1,0 +1,16 @@
+{
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "extends": ["plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "requireConfigFile": false
+  },
+  "node": {
+    "node": true,
+    "web3": true,
+    "jest": true
+  }
+}

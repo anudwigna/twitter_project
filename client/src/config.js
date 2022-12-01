@@ -1,0 +1,2 @@
+export const TwitterContractAddress = "0xc7C0C058e5731a95D35D3dA35057a65Cd10A00fE"  //change to yours
+export const web3StorageApi = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEQzZUNhOTRhNUQ3YjAyODViN0I1Zjk2NUEwYTY0OGUwZTY5ZjlBNTQiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NjkzMTk2NzU5MzcsIm5hbWUiOiJUd2l0dGVyIEFQSSJ9.qWN_siOvmGCWmyQCZ-fngl4-03H9cDZh4T0GqqU553Q"; //Change to yours
