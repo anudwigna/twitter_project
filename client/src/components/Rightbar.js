@@ -1,5 +1,7 @@
 import React from 'react';
 import './Rightbar.css';
+import WorldCup from '../images/WorldCup.jpg';
+import Binance from '../images/Binance.jfif';
 import hardhat from '../images/hardhat.jpg';
 import solidity from '../images/solidity.jpg';
 import metamask from '../images/metamask.jpg';
@@ -10,6 +12,19 @@ import { Search } from '@web3uikit/icons';
 
 const Rightbar = () =>{
     const trends = [
+
+
+        {
+            img:WorldCup,
+            text: "FIFA World Cup QATAR 2022",
+            link: "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022",
+        },
+
+        {
+            img:Binance,
+            text: "Cryptocurrencies on Binance",
+            link: "https://www.binance.com/en",
+        },
         {
             img:hardhat,
             text: "Hardhat",
@@ -30,6 +45,8 @@ const Rightbar = () =>{
             text: "MetaMask",
             link: "https://metamask.io/",
         },
+
+       
     ];
 
     return (

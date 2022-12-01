@@ -1,11 +1,11 @@
 import React,{useState,useEffect} from 'react';
+import './App.css';
 import { Route,Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
 import Sidebar from './components/Sidebar';
 import Rightbar from './components/Rightbar';
-import './App.css';
 import { Button,useNotification,Loading } from '@web3uikit/core';
 import { Twitter,Metamask } from '@web3uikit/icons'; 
 import { ethers,utils } from 'ethers';
@@ -48,7 +48,7 @@ function App() {
     connectWallet();
 
     const handleAccountsChanged = (accounts) => {
-      if(provider.chainId == "0x13881"){
+      if(provider.chainId === "0x13881"){
         infoNotification(accounts[0]);
       }
       // Just to prevent reloading twice for the very first time
@@ -58,7 +58,7 @@ function App() {
     };
 
     const handleChainChanged = (chainId)=>{
-      if(chainId != "0x13881"){
+      if(chainId !== "0x13881"){
         warningNotification();
       }
       window.location.reload();
@@ -78,7 +78,7 @@ function App() {
     let provider = new ethers.providers.Web3Provider(connection);
     const getnetwork = await provider.getNetwork();
     const EthChainId = 5;
-    if(getnetwork.chainId != EthChainId){
+    if(getnetwork.chainId !== EthChainId){
       warningNotification();
       try {
         await provider.provider.request({
