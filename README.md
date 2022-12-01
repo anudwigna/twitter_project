@@ -1,6 +1,6 @@
 # Twitter Clone Project
 
-This
+This is the readme file.
 
 Try running some of the following tasks:
 
