@@ -1,6 +1,4 @@
-# Twitter Clone Project
-
-## Topic: Develop a mini-Twitter on Ethereum
+## Develop a mini-Twitter on Ethereum
 
 ### Learning Objectives and Outcomes
 
