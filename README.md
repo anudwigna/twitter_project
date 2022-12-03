@@ -30,7 +30,13 @@ npm run deploy
 
 ### Run Frontend
 
-Inside the client folder in main project
+Install all the packages
+
+```shell
+yarn install
+```
+
+Run the Project
 
 ```shell
 npm start
