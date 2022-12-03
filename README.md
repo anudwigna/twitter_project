@@ -29,6 +29,7 @@ npm run deploy
 ```
 
 ### Run Frontend
+Go inside the client folder and run the following commands:
 
 Install all the packages
 
