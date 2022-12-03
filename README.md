@@ -42,3 +42,5 @@ Run the Project
 ```shell
 npm start
 ```
+
+If the project did not start in http://localhost:3000, try another URL: http://127.0.0.1:3000
